@@ -1,11 +1,12 @@
 # wordbot
-a telegram bot for remembering word
+a telegram bot to learn vocabulary
 
 ## requirements
-* Python 3
+* [Python 3](https://www.python.org/)
 * [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 * [peewee](http://docs.peewee-orm.com)
 * [requests](http://docs.python-requests.org)
+* [pytz](https://pypi.python.org/pypi/pytz)
 
 ## usage
 * set your bot(you can get your own bot from [@BotFather](https://telegram.me/BotFather)) token in *config.py*. 
@@ -18,4 +19,4 @@ a telegram bot for remembering word
 * `/test` will show the word without the meaning to test if you've remembered the meaning of the word.
 
 ## todo
-* add daily remind
+* ~~add daily remind~~
